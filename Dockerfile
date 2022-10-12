@@ -16,7 +16,7 @@ RUN npm run build --prod
 
 # WORKDIR /usr/src/app
 
-EXPOSE 4200
+EXPOSE 4100
 
 FROM nginx:1.20-alpine
 
